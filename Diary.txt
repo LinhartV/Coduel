@@ -1,0 +1,14 @@
+﻿8. 9. 2025
+Založen projekt
+Zprovozněn Canvas, vykresluju padající kolečko 200 FPS
+Mám 3 canvasy - v jednom je uložené pozadí. V dalším se každý frame vytvoří obrazy vše objektů (bez vykreslování). Na třetí se plácne v jednu chvíli pozadí a přes něj všechny předpřipravené objekty.
+
+
+29. 10. 2025
+Long time no see, uvidím, jak to půjde :)
+
+
+12. 11. 2025
+Even longer time no see :D
+Jdu projít kód, udělat pár nápadů a pustit se do toho? Let's go!
+Začnu tvorbou časového plánu, řeknu si, co postupně udělat.

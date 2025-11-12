@@ -1,0 +1,38 @@
+﻿PLÁN (tvořen 12. 11.)
+1) Grafika do 19. 11.
+• Zprovoznit vytváření custom grafických objektů, práce s grafikou
+• Herní pole nalevo, napravo prostor pro programování
+• Zatím čistě u klienta
+
+2) Síťová komunikace do 31. 11.
+• Zprovozněno posílání zpráv
+• Hotová objektová struktura posílání zpráv (pošle se toto, stane se toto)
+
+3) Objektová struktura do 14. 12.
+• Jasná objektová struktura herních prvků
+• Možno přidávat objekty do hry, animovat je
+• Možno vidět první prototyp hry (už se děje alespoň něco)
+
+4) Programování robotů do 7. 1.
+• Zprovozněno programovací pole (alespoň nějak)
+• Šipky nahoru, dolu, doleva, doprava; dávání bloků za sebe
+
+5) Dokončení základní hry do 15. 1.
+• Vyladění síťové komunikace, tahy hráčů
+• Možno si zahrát na síti první hru
+
+6) Didaktika do 31. 1.
+• Rozmyšlení didaktických konceptů
+• Přidávání dalších bloků (opakování, podmínky apod.)
+• První testování ve třídě
+
+7) Diplomka začata do 15. 2.
+• Začínám psát
+• Rozmýšlím, jak to přesně má fungovat, co přesně ve hře bude, jak bude vypadat finální podoba
+
+8) Hra hotova do 15. 3.
+• S jemnými buggy a nedodělávkami, ale možno k druhému testování
+• Sběr zpětných vazeb
+
+9) Diplomka hotova do 15. 4.
+• Nechávám si týden rezervu, good luck me :)

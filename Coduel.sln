@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coduel", "Coduel\Coduel.csproj", "{2F08EC6C-0595-4AB8-BA0B-120D8741EB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coduel.Client", "Coduel.Client\Coduel.Client.csproj", "{666E3F2F-B41C-4246-878A-C3C14F9D1DB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Diary.txt = Diary.txt
+		Notes.txt = Notes.txt
+		Plan.txt = Plan.txt
+		Websites.txt = Websites.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F08EC6C-0595-4AB8-BA0B-120D8741EB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F08EC6C-0595-4AB8-BA0B-120D8741EB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F08EC6C-0595-4AB8-BA0B-120D8741EB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F08EC6C-0595-4AB8-BA0B-120D8741EB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666E3F2F-B41C-4246-878A-C3C14F9D1DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666E3F2F-B41C-4246-878A-C3C14F9D1DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666E3F2F-B41C-4246-878A-C3C14F9D1DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666E3F2F-B41C-4246-878A-C3C14F9D1DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F687477D-6F3F-4DD5-8F8B-4247B15EF2E8}
+	EndGlobalSection
+EndGlobal

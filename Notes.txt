@@ -1,0 +1,101 @@
+﻿Nápady:
+
+---IDEAS---
+Hexagonální síť
+
+V onlinu jeden čas daně (každých 5 s), v tutoriálu si to spouštím jak chci.
+
+Úvahy:
+Programy se mi nebudou ztrácet, mohu reusnout.
+Když najdu token na zemi, tak ho mohu reusovat (informace se mi neztrácí) -> reprezentujeme metafory ve hře.
+Takže o hardware mohu přijít (zničí mi robota), ale informaci už mám.
+Moji roboti se mohou srazit.
+Mohu vrazit do sebe a ubrat si tím životy.
+Robotů mohu mít desítky
+Každý robot se může chovat na základě svého okolí (jakoby hejno)
+Mohu si roboty označit (třeba barvou) a všem nahrát program.
+Updatovat program robota jen na základně
+Mohu sbírat tokeny výpočetní síly, které umožňují rozšiřovat kód - větší kód nad 5 bloků poběží více taktů (jeden takt é 5 sekund = 5 příkazů)
+Potřebuji energii na ježdění a na výpočet - zavést resource energie?
+Mohu roboty stavět (např dám mu střílnu, dám mu pásy, dám mu meč) a podle toho se mi odemknou bloky, které mohu použít.
+->zase didakticky, rozlišit hardware a software. Hardware měnit nemohu, software ano. Nebo přestavovat jen na základně?
+Energie jako i životy - když mě někdo sejme, přijdu o hodně energie. Energie se spotřebovává používáním věcí na robotovy (střelba, jízda apod.).
+Energie se může spotřebovávat i provedením softwaru?
+Dobít na základně?
+
+Co je typická úloha, co hráč chce řešit? Co bude typický prográmek?
+
+Resourcy se budou spawnovat na daných místech
+
+3 hráči?
+
+Podprogramy dříve než podmínky - chci házet situace, kdy si hráči sami uvědomí, že to potřebují.
+
+Kdy vyhraju?
+-zničit základnu
+-obsadit území (sázím vlaječky, co něco dělají)
+
+
+
+---PROGRAMMING---
+Architektura autoritativního serveru.
+Já něco udělám, pošlu to server, server to vykoná a pošle info všem.
+Posílá jaké objekty vykreslit a co mají udělat (přejití, animace výbuchu apod.)
+Pošle také podklady k programování - nové tokeny apod.
+
+Jak dělat různý ty animace... možná každý robot má vlastní animace a tak...
+Prostě veškeré kreslící podklady stačí, aby měl klient a server se nemusí namáhat.
+Server jen pošle, jaké akce a animace se mají vykonat.
+
+Budou dané animace? Mohou být... animace pro přechod
+
+---GAMEPLAY---
+
+Server každých 5 sekund vykoná příkazy všech robotů.
+Pokud chci přeprogramovat robota, tak během přeprogramovávání je zastaven a nedělá nic.
+Takže chci udělat efektivní roboty, abych měl čas programovat nový.
+
+Každých třeba 10 tahů bude delší pauza na vše.
+
+Je pár základních typů robotů:
+	Sběrač
+Chodí po mapě a sbírá věci na zemi.
+
+	Útočník
+Ničí ostatní stroje a útočí na hrad.
+
+Mám u sebe počáteční sadu tokenů (věcí na programování)
+Je token robota, který umožní vytvořit nového robota.
+Token pohybu (otoč se, jdi dopředu, jdi dozadu)
+Token útoku (vykonej útok)
+
+Když se zničí robot, vypadnou z něj použité tokeny, které může sebrat sběrač.
+
+
+Levely programování:
+1)
+Sekvence
+Pouze sběrač, útočník na blízko a stříleč.
+
+2)
+Podmínky, opakování
+
+3)
+Útočníci mají omezené počty bouchů.
+
+4)
+Lze vytvářet blueprinty - příkazy jako šablona, kterou mohu přenést k jiným.
+
+5)
+Proměnné, číselné hodnoty, senzory
+Ptám se, jak daleko ode mě něco je a to číslo mohu použít jinde.
+
+6)
+Souřadnice, turretky, životy
+Mohu postavit automatickou strážní věž, které něco může dělat.
+Pracuji se souřadnicemi - každý robot ví, kde se nachází.
+Každý robot má životy, jejichž počet může použít v kódu a třeba se podle toho vrátit na základnu vyléčit.
+
+
+
+

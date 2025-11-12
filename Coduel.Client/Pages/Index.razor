@@ -1,0 +1,35 @@
+﻿@page "/"
+@rendermode InteractiveWebAssembly
+
+<CanvasHelper @ref="CanvasHelper"
+              CanvasResized="CanvasResized"
+              RenderFrame="RenderFrame"
+              MouseDown="MouseDown"
+              MouseUp="MouseUp"
+              MouseMove="MouseMove">
+
+    <BECanvas Width="600" Height="400" @ref="CanvasReference"></BECanvas>
+
+</CanvasHelper>
+<div style="display:none">
+    <CanvasHelper @ref="BackgroundCanvasHelper"
+                  CanvasResized="CanvasResized"
+                  RenderFrame="RenderFrame"
+                  MouseDown="MouseDown"
+                  MouseUp="MouseUp"
+                  MouseMove="MouseMove">
+
+        <BECanvas Width="600" Height="400" @ref="BackgroundCanvasReference"></BECanvas>
+
+    </CanvasHelper>
+<CanvasHelper @ref="OffscreenCanvasHelper"
+              CanvasResized="CanvasResized"
+              RenderFrame="RenderFrame"
+              MouseDown="MouseDown"
+              MouseUp="MouseUp"
+              MouseMove="MouseMove" >
+
+    <BECanvas Width="600" Height="400" @ref="OffscreenCanvasReference"></BECanvas>
+
+    </CanvasHelper>
+</div>
